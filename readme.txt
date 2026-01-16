@@ -1,4 +1,4 @@
---Readme document for *YOUR NAME*, *YOUR_EMAIL@uci.edu*--
+--Readme document for Abby Pho, dppho@uci.edu--
 
 A reminder on academic integrity, as described in the syllabus.
 
@@ -10,14 +10,14 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+7.5/10
+- 1/1 Readme
+- 1.5/2 Basic HTML content
+- 0.5/1 Basic CSS styling
+- 0/1 Advanced feature
+- 1.5/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
@@ -43,7 +43,35 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
+These are the prompts I feed AI addressing my point of confusion, and the responses I received:
+1. How do I git commit the codes I wrote in VSCode to git?
+    I'll help you commit your code to Git in VS Code. Let me first check if your workspace has Git initialized: 
 
+    Ran terminal command: git status
+
+    Great! Git is already initialized in your workspace. Here's how to commit your code:
+
+    **In VS Code, use the Source Control panel:**
+
+    1. Click the **Source Control icon** in the left sidebar (looks like a branching icon)
+    2. You'll see your modified files listed under "Changes"
+    3. **Stage your files:**
+        - Click the **+** icon next to each file, or click **+** next to "Changes" to stage all
+    4. **Write a commit message:**
+        - In the message box at the top, type a descriptive message (e.g., "Add portfolio content")
+    5. **Commit:**
+        - Press `Ctrl+Enter` or click the **Commit** button (checkmark icon)
+    6. **Push to remote (optional):**
+        - Click the **...** menu and select "Push" to upload to GitHub/your remote repository
+
+    **Or use the terminal:**
+    ```powershell
+    git add .
+    git commit -m "Your commit message here"
+    git push
+    ```
+
+    Since your working tree is currently clean, make sure you've saved your changes to the files in VS Code first. Once you modify index.html or other files, they'll appear in the Source Control panel.
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
