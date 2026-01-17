@@ -73,6 +73,31 @@ These are the prompts I feed AI addressing my point of confusion, and the respon
 
     Since your working tree is currently clean, make sure you've saved your changes to the files in VS Code first. Once you modify index.html or other files, they'll appear in the Source Control panel.
 
+2. I created an asset folder and added my professional headshot photo to the folder, photo titled "professionalHeadshot.JPG". I wrote this line to add the image to my website: "<img src="professionalHeadshot.JPG" alt="Professional headshot of Abby Pho">", but the image is not showing up in the website. Has I wrote something wrong?
+    Yes, I found the issue! The image is in your assets folder, but your `src` attribute is pointing to the root directory. You need to update the image path to include the folder:
+
+    Change:
+    ```html
+    <img src="professionalHeadshot.JPG" alt="Professional headshot of Abby Pho">
+    ```
+
+    To:
+    ```html
+    <img src="assets/professionalHeadshot.JPG" alt="Professional headshot of Abby Pho">
+    ```
+
+    Let me fix that for you: 
+
+    Using "Replace String in File"
+
+
+    ```
+
+    ```
+    Fixed! The path now correctly points to professionalHeadshot.JPG. Your image should now display on the website.
+
+    Made changes.
+
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
