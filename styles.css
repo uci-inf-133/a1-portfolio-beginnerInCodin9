@@ -4,3 +4,7 @@ body {
     font-family: Verdana, sans-serif, Tahoma, Helvetica, Arial;
     font-size: 24px;
 }
+
+#introduction {
+    background-color: #3B4046; /* set background color to dark cyan */
+}
