@@ -14,10 +14,6 @@ body {
     height: auto;
 }
 
-.nav-link {
-    color: white; /* set navigation link color to white */
-}
-
 .navbar .nav-link:hover {
     background-color: gray;
     color: black;
