@@ -22,3 +22,14 @@ body {
     background-color: white !important;
     color: black !important;
 }
+
+footer {
+    background-color: #3B4046; /* set background color to dark cyan */
+    color: white;
+    font-family: Verdana, sans-serif, Tahoma, Helvetica, Arial;
+}
+
+.footer-img {
+    width: 2rem;
+    height: auto;
+}
