@@ -16,6 +16,7 @@ body {
 
 .navbar .nav-link {
     color: white !important;
+    text-align: center;
 }
 
 .navbar .nav-link:hover {
